@@ -1,11 +1,16 @@
+
+## Greatest Common Divisor Of Array
+
+## problem
+```
 Given an integer array nums, return the greatest common divisor of the smallest number and largest number in nums.
 
 The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
+```
 
+## python solution-
 
--------- python solution 1 ------------
-
-
+```py
 class Solution(object):
     def findGCD(self, nums):
         """
@@ -35,13 +40,14 @@ class Solution(object):
                 cf.append(f)
 
         return cf[-1]
+```
+
+## python solution 2 -
+     
+  much more efficient 
 
 
----------python solution 2 -----------
-much more efficient 
-
-
-
+```py
 class Solution(object):
     def findGCD(self, nums):
         """
@@ -63,3 +69,4 @@ class Solution(object):
                 i = i-1
 
 
+```
