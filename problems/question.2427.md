@@ -1,15 +1,17 @@
-NUMBER OF COMMMON FACTORS
+## NUMBER OF COMMMON FACTORS
 
-question-
-
+## Question-
+```
 Given two positive integers a and b, return the number of common factors of a and b.
 
 An integer x is a common factor of a and b if x divides both a and b.
+```
 
-solution-
+##Solution-
 
----------- python 3 ------------
+python 3 -
 
+```py
 class Solution:
     def commonFactors(self, a: int, b: int) -> int:
        cf = []
@@ -18,3 +20,4 @@ class Solution:
            if (a%i == 0) and (b%i == 0):
                cf.append(i)
        return len(cf)
+```
