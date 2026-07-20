@@ -1,6 +1,6 @@
 ## PALINDROME NUMBER
 
-##Question-
+## Question-
 ```
 Given an integer x, return true if x is a palindrome, and false otherwise.
  
@@ -18,7 +18,7 @@ Explanation: From left to right, it reads -121. From right to left, it becomes 1
 
 ```
 
-##Solution -
+## Solution -
 
 Python3 -
 ```py
