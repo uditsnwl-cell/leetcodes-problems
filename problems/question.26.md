@@ -34,3 +34,21 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
  
+
+
+
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    
+    let s = new Set(nums);
+    let a = [...s];
+    
+    for (i = 0; i < a.length ; i++){
+      nums[i] = a[i];
+      }
+    return a.length
+};
