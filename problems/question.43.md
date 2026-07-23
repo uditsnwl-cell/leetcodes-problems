@@ -17,3 +17,15 @@ Example 2:
 Input: num1 = "123", num2 = "456"
 Output: "56088"
  ```
+
+
+/**
+ * @param {string} num1
+ * @param {string} num2
+ * @return {string}
+ */
+var multiply = function(num1, num2) {
+    
+    return (BigInt(num1) * BigInt(num2)).toString()
+    
+};
