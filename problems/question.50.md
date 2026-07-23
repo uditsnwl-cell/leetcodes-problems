@@ -22,6 +22,11 @@ Explanation: 2-2 = 1/22 = 1/4 = 0.25
  ```
 
 
+## Solution - 
+
+javascript-
+
+```js
 /**
  * @param {number} x
  * @param {number} n
@@ -30,3 +35,5 @@ Explanation: 2-2 = 1/22 = 1/4 = 0.25
 var myPow = function(x, n) {
     return x ** n;
 };
+
+```
